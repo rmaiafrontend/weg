@@ -1,0 +1,422 @@
+{
+  "categories": [
+    { "id": "cat-1", "name": "Soluções Zigbee", "icon": "Zap", "order": 1, "is_promotion": false },
+    { "id": "cat-2", "name": "Controles", "icon": "Home", "order": 2, "is_promotion": false },
+    { "id": "cat-3", "name": "Vídeo Porteiro Smart", "icon": "Camera", "order": 3, "is_promotion": false },
+    { "id": "cat-4", "name": "Fechaduras Eletrônicas", "icon": "Shield", "order": 4, "is_promotion": false },
+    { "id": "cat-5", "name": "Linha Touch Wi-Fi", "icon": "Home", "order": 5, "is_promotion": false },
+    { "id": "cat-6", "name": "Câmeras Wi-Fi", "icon": "Camera", "order": 6, "is_promotion": false },
+    { "id": "cat-7", "name": "Sensores", "icon": "ScanFace", "order": 7, "is_promotion": false },
+    { "id": "cat-8", "name": "Plugues", "icon": "Plug", "order": 8, "is_promotion": false },
+    { "id": "cat-9", "name": "Relés", "icon": "Zap", "order": 9, "is_promotion": false },
+    { "id": "cat-10", "name": "Tomadas & Interruptores", "icon": "Plug", "order": 10, "is_promotion": true }
+  ],
+  "products": [
+    {
+      "id": "prod-4",
+      "name": "Controle Universal WEG Home",
+      "sku": "WEG-CTL-001",
+      "price": 159.90,
+      "stock": 18,
+      "express_delivery": false,
+      "category_id": "cat-2",
+      "created_date": "2024-03-01T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/10/controle_universal_wi_fi_whome_sob_10_sup_-_dir-1-540x400.png"],
+      "description": "Centralize os controles do dia a dia. Compatível com Alexa e Google Assistente.",
+      "specs": [
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" },
+        { "label": "Compatível com", "value": "Alexa, Google Assistente" },
+        { "label": "Alimentação", "value": "USB (incluído)" },
+        { "label": "Dimensões", "value": "120 × 80 × 15 mm" }
+      ]
+    },
+    {
+      "id": "prod-5",
+      "name": "Controle Remoto 4 Botões",
+      "sku": "WEG-CTL-002",
+      "price": 69.90,
+      "stock": 40,
+      "express_delivery": true,
+      "category_id": "cat-2",
+      "created_date": "2024-03-15T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/10/zigbee_controle_remoto_multi_canais_-drt-540x400.png"],
+      "description": "Controle remoto para cenas e dispositivos. Bateria de longa duração.",
+      "specs": [
+        { "label": "Protocolo", "value": "Zigbee 3.0" },
+        { "label": "Botões", "value": "4 canais" },
+        { "label": "Bateria", "value": "CR2032 (até 2 anos)" },
+        { "label": "Alcance", "value": "Até 30 m em área livre" }
+      ]
+    },
+    {
+      "id": "prod-6",
+      "name": "VP2K Smart Vídeo Porteiro",
+      "sku": "WEG-VP2K-001",
+      "price": 899.90,
+      "original_price": 999.90,
+      "stock": 15,
+      "express_delivery": true,
+      "category_id": "cat-3",
+      "created_date": "2024-04-01T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2025/12/weghome-video-porteiro-smart-banner-855x660-1.png"],
+      "description": "Câmera 2K (QHD), visão noturna, áudio bidirecional e detecção de pessoas e pacotes.",
+      "specs": [
+        { "label": "Resolução", "value": "2K (2560 × 1440)" },
+        { "label": "Visão noturna", "value": "Infravermelho até 10 m" },
+        { "label": "Áudio", "value": "Bidirecional, cancelamento de ruído" },
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" },
+        { "label": "Alimentação", "value": "12 V DC" }
+      ]
+    },
+    {
+      "id": "prod-7",
+      "name": "Vídeo Porteiro Full HD",
+      "sku": "WEG-VP-HD-002",
+      "price": 599.90,
+      "stock": 22,
+      "express_delivery": false,
+      "category_id": "cat-3",
+      "created_date": "2024-04-20T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2025/12/weghome-video-porteiro-smart-banner-855x660-1.png"],
+      "description": "Monitoramento remoto em tempo real. Instalação simples e integração ao app WEG Home.",
+      "specs": [
+        { "label": "Resolução", "value": "Full HD 1080p" },
+        { "label": "Ângulo de visão", "value": "120° horizontal" },
+        { "label": "Visão noturna", "value": "Sim, infravermelho" },
+        { "label": "App", "value": "WEG Home (iOS/Android)" }
+      ]
+    },
+    {
+      "id": "prod-8",
+      "name": "Fechadura Inteligente de Embutir",
+      "sku": "WEG-FCH-001",
+      "price": 749.90,
+      "original_price": 849.90,
+      "stock": 12,
+      "express_delivery": true,
+      "category_id": "cat-4",
+      "created_date": "2024-05-01T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/10/fechadura-inteligente-weg-home-fechadura-longa.png"],
+      "description": "Senha, biometria, cartão, chave ou app. Senhas temporárias para convidados.",
+      "specs": [
+        { "label": "Formas de abertura", "value": "Senha, biometria, cartão, chave, app" },
+        { "label": "Capacidade", "value": "100 digitais, 50 cartões" },
+        { "label": "Bateria", "value": "4 pilhas AA (até 12 meses)" },
+        { "label": "Instalação", "value": "Embutir (padrão cilindro)" }
+      ]
+    },
+    {
+      "id": "prod-9",
+      "name": "Fechadura Digital com Teclado",
+      "sku": "WEG-FCH-002",
+      "price": 449.90,
+      "stock": 25,
+      "express_delivery": false,
+      "category_id": "cat-4",
+      "created_date": "2024-05-15T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/02/fechadura-inteligente-sobrepor-standalone-weg-home-1.png"],
+      "description": "Controle total pela senha ou app WEG Home. Trave e destrave de qualquer lugar.",
+      "specs": [
+        { "label": "Teclado", "value": "Numérico iluminado" },
+        { "label": "Senhas", "value": "Até 20 senhas diferentes" },
+        { "label": "Conectividade", "value": "Wi-Fi, app WEG Home" },
+        { "label": "Instalação", "value": "Sobrepor" }
+      ]
+    },
+    {
+      "id": "prod-10",
+      "name": "Interruptor Touch Wi-Fi 1 Tecla",
+      "sku": "WEG-ITW-001",
+      "price": 129.90,
+      "stock": 60,
+      "express_delivery": true,
+      "category_id": "cat-5",
+      "created_date": "2024-06-01T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/smart-home-interruptor.png"],
+      "description": "Tecla iluminada, acabamento em vidro temperado. Automação residencial minimalista.",
+      "specs": [
+        { "label": "Teclas", "value": "1 tecla" },
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" },
+        { "label": "Acabamento", "value": "Vidro temperado" },
+        { "label": "Tensão", "value": "127 V / 220 V" },
+        { "label": "Corrente", "value": "10 A resistiva" }
+      ]
+    },
+    {
+      "id": "prod-11",
+      "name": "Interruptor Touch Wi-Fi 2 Teclas",
+      "sku": "WEG-ITW-002",
+      "price": 179.90,
+      "stock": 45,
+      "express_delivery": false,
+      "category_id": "cat-5",
+      "created_date": "2024-06-10T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/smart-home-interruptor.png"],
+      "description": "Duplo ponto de luz. Intuitivo e resistente. Integração com Alexa e Google.",
+      "specs": [
+        { "label": "Teclas", "value": "2 teclas" },
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" },
+        { "label": "Compatível", "value": "Alexa, Google Assistente" },
+        { "label": "Tensão", "value": "127 V / 220 V" }
+      ]
+    },
+    {
+      "id": "prod-12",
+      "name": "Câmera Interna PTZ Wi-Fi Full HD",
+      "sku": "WEG-CAM-001",
+      "price": 429.90,
+      "original_price": 479.90,
+      "stock": 30,
+      "express_delivery": true,
+      "category_id": "cat-6",
+      "created_date": "2024-07-01T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/wcam_camera_ptz_-_frt-540x400.png"],
+      "description": "Visão noturna, detecção de movimento, Full HD e áudio bidirecional.",
+      "specs": [
+        { "label": "Resolução", "value": "Full HD 1080p" },
+        { "label": "PTZ", "value": "Pan, tilt, zoom digital" },
+        { "label": "Visão noturna", "value": "Infravermelho" },
+        { "label": "Áudio", "value": "Bidirecional" },
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" }
+      ]
+    },
+    {
+      "id": "prod-13",
+      "name": "Câmera Externa Full HD",
+      "sku": "WEG-CAM-002",
+      "price": 349.90,
+      "stock": 28,
+      "express_delivery": false,
+      "category_id": "cat-6",
+      "created_date": "2024-07-15T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/10/wcam_camera_ext_bullet_20_-_drt_variacao-540x400-removebg-preview.png"],
+      "description": "Resistente à intempéries. Monitore sua casa a qualquer hora pelo app.",
+      "specs": [
+        { "label": "Resolução", "value": "Full HD 1080p" },
+        { "label": "Proteção", "value": "IP66 (intempéries)" },
+        { "label": "Visão noturna", "value": "Infravermelho até 20 m" },
+        { "label": "Ângulo", "value": "110° horizontal" }
+      ]
+    },
+    {
+      "id": "prod-14",
+      "name": "Sensor de Movimento PIR",
+      "sku": "WEG-SEN-001",
+      "price": 99.90,
+      "stock": 55,
+      "express_delivery": true,
+      "category_id": "cat-7",
+      "created_date": "2024-08-01T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/smart-home-sensores.png"],
+      "description": "Alertas em tempo real. Integração com Câmera PTZ e cenas no app WEG Home.",
+      "specs": [
+        { "label": "Tecnologia", "value": "PIR (infravermelho passivo)" },
+        { "label": "Alcance", "value": "Até 12 m, 110°" },
+        { "label": "Conectividade", "value": "Zigbee / Wi-Fi" },
+        { "label": "Bateria", "value": "Até 2 anos (CR2032)" }
+      ]
+    },
+    {
+      "id": "prod-15",
+      "name": "Sensor de Porta e Janela Wi-Fi",
+      "sku": "WEG-SEN-002",
+      "price": 119.90,
+      "stock": 42,
+      "express_delivery": false,
+      "category_id": "cat-7",
+      "created_date": "2024-08-20T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/smart-home-sensores.png"],
+      "description": "Monitore portas e janelas. Acionamento de presets e cenas automáticas.",
+      "specs": [
+        { "label": "Tipo", "value": "Contato magnético" },
+        { "label": "Alcance", "value": "Até 25 mm entre ímã e sensor" },
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" },
+        { "label": "Bateria", "value": "CR2032 (até 2 anos)" }
+      ]
+    },
+    {
+      "id": "prod-16",
+      "name": "Plugue Inteligente Wi-Fi WEG Home",
+      "sku": "WEG-PLG-001",
+      "price": 89.90,
+      "original_price": 109.90,
+      "stock": 80,
+      "express_delivery": true,
+      "category_id": "cat-8",
+      "created_date": "2024-09-01T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/smart-home-plugues.png"],
+      "description": "Ligue e desligue dispositivos por horário ou app. Verificação de consumo de energia.",
+      "specs": [
+        { "label": "Potência máxima", "value": "16 A / 3680 W" },
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" },
+        { "label": "Tensão", "value": "127 V" },
+        { "label": "Monitoramento", "value": "Consumo em tempo real (app)" }
+      ]
+    },
+    {
+      "id": "prod-17",
+      "name": "Plugue Duplo Wi-Fi",
+      "sku": "WEG-PLG-002",
+      "price": 139.90,
+      "stock": 38,
+      "express_delivery": false,
+      "category_id": "cat-8",
+      "created_date": "2024-09-15T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/smart-home-plugues.png"],
+      "description": "Dois pontos independentes. Programe luminárias, cafeteira e mais.",
+      "specs": [
+        { "label": "Saídas", "value": "2 independentes" },
+        { "label": "Potência total", "value": "16 A" },
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" },
+        { "label": "Compatível", "value": "Alexa, Google Assistente" }
+      ]
+    },
+    {
+      "id": "prod-18",
+      "name": "Relé Dimmer Wi-Fi",
+      "sku": "WEG-REL-001",
+      "price": 149.90,
+      "stock": 35,
+      "express_delivery": true,
+      "category_id": "cat-9",
+      "created_date": "2024-10-01T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/smart-home-reles.png"],
+      "description": "Ligue, desligue ou dimerize a luz. Comando de voz, app ou interruptor convencional.",
+      "specs": [
+        { "label": "Tipo", "value": "Dimmer (regulável)" },
+        { "label": "Carga", "value": "400 W incandescente / 150 W LED" },
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" },
+        { "label": "Instalação", "value": "Caixa padrão 4×2\"" }
+      ]
+    },
+    {
+      "id": "prod-19",
+      "name": "Relé Simples Wi-Fi",
+      "sku": "WEG-REL-002",
+      "price": 99.90,
+      "stock": 50,
+      "express_delivery": false,
+      "category_id": "cat-9",
+      "created_date": "2024-10-15T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/smart-home-reles.png"],
+      "description": "Controle de um ponto de luz. Integre luz natural e artificial em cenas.",
+      "specs": [
+        { "label": "Tipo", "value": "Relé on/off" },
+        { "label": "Carga", "value": "10 A / 127 V" },
+        { "label": "Conectividade", "value": "Wi-Fi 2.4 GHz" },
+        { "label": "Instalação", "value": "Caixa 4×2\" ou 4×4\"" }
+      ]
+    },
+    {
+      "id": "prod-20",
+      "name": "Placa Tomada Esatta Branco",
+      "sku": "WEG-ESA-001",
+      "price": 34.90,
+      "stock": 120,
+      "express_delivery": true,
+      "category_id": "cat-10",
+      "created_date": "2024-11-01T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/imagem-placa-tomada-esatta-branca.png"],
+      "description": "Linha Esatta branca. Design minimalista, linhas retas e acabamento contemporâneo. 5 anos de garantia.",
+      "specs": [
+        { "label": "Linha", "value": "Esatta" },
+        { "label": "Cor", "value": "Branco" },
+        { "label": "Material", "value": "Policarbonato" },
+        { "label": "Garantia", "value": "5 anos" }
+      ]
+    },
+    {
+      "id": "prod-21",
+      "name": "Placa Tomada Esatta Argila",
+      "sku": "WEG-ESA-002",
+      "price": 34.90,
+      "original_price": 39.90,
+      "stock": 85,
+      "express_delivery": false,
+      "category_id": "cat-10",
+      "created_date": "2024-11-05T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/imagem-placa-tomada-esatta-argila.png"],
+      "description": "Tom moderna e acolhedora. Policarbonato com aditivos anti-UV. Conjuntos monocromáticos elegantes.",
+      "specs": [
+        { "label": "Linha", "value": "Esatta" },
+        { "label": "Cor", "value": "Argila" },
+        { "label": "Material", "value": "Policarbonato anti-UV" },
+        { "label": "Garantia", "value": "5 anos" }
+      ]
+    },
+    {
+      "id": "prod-22",
+      "name": "Placa Tomada Esatta Grafite",
+      "sku": "WEG-ESA-003",
+      "price": 36.90,
+      "stock": 70,
+      "express_delivery": true,
+      "category_id": "cat-10",
+      "created_date": "2024-11-10T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/imagem-placa-tomada-esatta-grafite.png"],
+      "description": "Sóbrio e contemporâneo. Design ultrafino, discreto e elegante. Disponível em 4×2\" e 4×4\".",
+      "specs": [
+        { "label": "Linha", "value": "Esatta" },
+        { "label": "Cor", "value": "Grafite" },
+        { "label": "Dimensões", "value": "4×2\" e 4×4\"" },
+        { "label": "Garantia", "value": "5 anos" }
+      ]
+    },
+    {
+      "id": "prod-23",
+      "name": "Tomada 2P+T 20A Esatta",
+      "sku": "WEG-ESA-004",
+      "price": 29.90,
+      "stock": 150,
+      "express_delivery": false,
+      "category_id": "cat-10",
+      "created_date": "2024-11-15T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/modulos_refinatto_modulo_tomada-2pt_20a.jpg"],
+      "description": "Módulo tomada 20A. Sistema modular Esatta/Refinatto. Alta resistência mecânica e isolamento elétrico.",
+      "specs": [
+        { "label": "Tipo", "value": "Tomada 2P+T" },
+        { "label": "Corrente", "value": "20 A" },
+        { "label": "Tensão", "value": "127 V / 250 V" },
+        { "label": "Sistema", "value": "Esatta / Refinatto modular" }
+      ]
+    },
+    {
+      "id": "prod-24",
+      "name": "Tomada com USB Esatta",
+      "sku": "WEG-ESA-005",
+      "price": 89.90,
+      "original_price": 99.90,
+      "stock": 60,
+      "express_delivery": true,
+      "category_id": "cat-10",
+      "created_date": "2024-11-20T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/tomadas-usb-weg-esatta.png"],
+      "description": "Tomada com USB Tipo-A e Tipo-C, bivolt. Carregamento rápido para smartphones e tablets.",
+      "specs": [
+        { "label": "Saídas", "value": "2P+T + USB-A + USB-C" },
+        { "label": "USB", "value": "Tipo-A e Tipo-C (carregamento rápido)" },
+        { "label": "Tensão", "value": "Bivolt 127 V / 220 V" },
+        { "label": "Corrente USB", "value": "Até 3 A compartilhado" }
+      ]
+    },
+    {
+      "id": "prod-25",
+      "name": "Interruptor Simples Esatta",
+      "sku": "WEG-ESA-006",
+      "price": 24.90,
+      "stock": 200,
+      "express_delivery": false,
+      "category_id": "cat-10",
+      "created_date": "2024-11-25T10:00:00Z",
+      "images": ["https://www.weg.net/weghome/wp-content/uploads/2024/09/interruptor-simples.jpg"],
+      "description": "Interruptor simples linha Esatta. Cantos levemente arredondados, design discreto. 27 opções de módulos.",
+      "specs": [
+        { "label": "Tipo", "value": "Interruptor simples" },
+        { "label": "Linha", "value": "Esatta" },
+        { "label": "Tensão", "value": "127 V / 220 V" },
+        { "label": "Corrente", "value": "10 A" },
+        { "label": "Módulos", "value": "27 opções na linha Esatta" }
+      ]
+    }
+  ]
+}
